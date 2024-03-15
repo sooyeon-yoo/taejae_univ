@@ -14,7 +14,7 @@ My name is **Sooyeon Yoo**.
    - ![Here is the picture of me.!](https://www.ice.go.kr/upload/board/552/2023/11/7987993c78ece203840329830553c081.jpg)
 
 3. I'm a **cat** lover.
-   - My family is my mom, dad, *five cats*[^1], and me.
+   - My family is my mom, dad, *five cats*:cat:[^1], and me.
      [^1]: They are Yooki, Momo, Aoh, Binu, and Rosy.
 
 ***
