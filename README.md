@@ -15,8 +15,8 @@ My name is **Sooyeon Yoo**.
 
 3. I'm a **cat** lover.
    - My family is my mom, dad, *five cats*[^1], and me.
+     [^1]: They are Yooki, Momo, Aoh, Binu, and Rosy.
 
-[^1]: They are Yooki, Momo, Aoh, Binu, and Rosy.
 ***
 
 Thank you!
