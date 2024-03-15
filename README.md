@@ -3,6 +3,8 @@
 
 My name is **Sooyeon Yoo**.
 
+***
+
 1. My biggest interest is **ecology**.
    - I attended the ***"Birds and Schools"*** forum to protect 'Sorae Marsh Ecological Park' from the ecological succession.
    - The ["Birds and Schools"](https://foundation.eaaflyway.net/%EC%A0%9C1%ED%9A%8C-%EB%8F%99%EC%95%84%EC%8B%9C%EC%95%84-%EB%8C%80%EC%96%91%EC%A3%BC-%EC%B2%A0%EC%83%88%EC%9D%B4%EB%8F%99%EA%B2%BD%EB%A1%9C-%EC%83%88%EC%99%80-%ED%95%99%EA%B5%90/) was an international forum hosted by EAAFP to save migratory waterbirds and wetlands.
