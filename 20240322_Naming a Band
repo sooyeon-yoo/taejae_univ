@@ -1,4 +1,4 @@
 print("Welcome to the 'Naming a Band'!")
 BC=input("Please type your bottom's color:)
 LF=input("Please type the last food you ate:)
-print("Your band name is ", BC, " ", LF)
+print("Your band name is ", BC, " ", LF, ".")
