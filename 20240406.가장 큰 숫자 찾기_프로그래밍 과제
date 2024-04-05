@@ -1,0 +1,31 @@
+number1 = float(input("Please enter the first number: "))
+number2 = float(input("Please enter the second number: "))
+number3 = float(input("Please enter the third number: "))
+biggest_number = float()
+biggest_number_name = []  # 변수 이름 문자열, 같은 값 두 개 이상일 시 이름 모두 출력 방안 고안
+
+if number1 >= number2 and number1 >= number3:
+    biggest_number = number1
+elif number2 >= number1 and number2 >= number3:
+    biggest_number = number2
+else:
+    biggest_number = number3
+
+if biggest_number - int(biggest_number) == 0:  # 선생님 왜 중괄호 쓰니까 해당 코드 작동 안 하나요?
+    biggest_number = int(biggest_number)
+
+if biggest_number == number1:
+    biggest_number_name.append("the first one")
+if biggest_number == number2:
+    biggest_number_name.append("the second one")
+if biggest_number == number3:
+    biggest_number_name.append("the third one")
+
+if len(biggest_number_name) == 2:
+    biggest_number_name.insert(1, "and")
+if len(biggest_number_name) == 3:
+    biggest_number_name.insert(1, "and")
+    biggest_number_name.insert(3, "and")
+
+print("The biggest number is", *biggest_number_name, ",", biggest_number, ".")
+# 선생님 해당 코드 출력 시 콤마 앞, 마침표 앞 스페이스 나오는데 어떻게 지우나요?
