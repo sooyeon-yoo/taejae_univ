@@ -24,7 +24,7 @@ if biggest_number == number3:
 if len(biggest_number_name) == 2:
     biggest_number_name.insert(1, "and")
 if len(biggest_number_name) == 3:
-    biggest_number_name.insert(1, "and")
+    biggest_number_name.insert(1, ",")
     biggest_number_name.insert(3, "and")
 
 print("The biggest number is", *biggest_number_name, ",", biggest_number, ".")
