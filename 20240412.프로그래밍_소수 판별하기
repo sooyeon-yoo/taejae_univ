@@ -1,0 +1,22 @@
+# solution1_for, 매개 변수
+num_for = int(input("Please enter a natural number to figure out if it is a prime number: "))
+prime_for = 0
+for num in range(2, num_for):
+    if num_for % num == 0:
+        prime_for += 1
+        break
+if prime_for == 1:
+    print(num_for, "is not a prime number.")
+else:
+    print(num_for, "is a prime number.")
+
+# solution2_while, 대소 비교
+num_while = int(input("Please enter a natural number to figure out if it is a prime number: "))
+num_w_calculate = 2
+while num_while > num_w_calculate:
+    if num_while % num_w_calculate == 0:
+        print(num_while, "is not a prime number.")
+        break
+    num_w_calculate += 1
+if num_w_calculate == num_while:
+    print(num_while, "is a prime number.")
