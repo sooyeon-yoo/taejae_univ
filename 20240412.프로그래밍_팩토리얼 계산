@@ -1,0 +1,6 @@
+num_for = int(input("Please enter natural number to calculate factorial: ")
+
+
+num_while = int(input("Please enter natural number to calculate factorial: ")
+factorial_while = 1
+while :
