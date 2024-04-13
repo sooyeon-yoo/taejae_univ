@@ -1,8 +1,8 @@
 num_for = int(input("Please enter a natural number to calculate the factorial: "))
-factorial_while = 1
+factorial_for = 1
 for num in range(1, num_for+1):
-    factorial_while = factorial_while * num
-print("The factorial calculated by the code, for is", factorial_while)
+    factorial_for = factorial_for * num
+print("The factorial calculated by the code, for is", factorial_for)
 
 
 num_while = int(input("Please enter a natural number to calculate the factorial: "))
