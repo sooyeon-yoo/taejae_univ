@@ -14,7 +14,7 @@ except ValueError:
 print("The Fibonacci number is", fibonacci(num), ".")
 
 
-# while
+# while문
 try:
     n = int(input("Please enter a natural number: "))
     def fibonacci(n):
