@@ -1,3 +1,4 @@
+# 재귀
 try:
     num = int(input("Please enter a natural number: "))
     def fibonacci(num):
@@ -11,3 +12,27 @@ except ValueError:
     print("It is not a valid value.")
 
 print("The Fibonacci number is", fibonacci(num), ".")
+
+
+# while
+try:
+    n = int(input("Please enter a natural number: "))
+    def fibonacci(n):
+        f_num1 = 0
+        f_num2 = 1
+        f_n = int()
+        if n == 1:
+            return f_num1
+        elif n == 2:
+            return f_num2
+        else:
+            while n >= 3:
+                f_n = f_num1 + f_num2
+                f_num1 = f_num2
+                f_num2 = f_n
+                n -= 1
+            return f_n
+    print("The Fibonacci number is", fibonacci(n), ".")
+
+except ValueError:
+    print("It is not a valid value.")
