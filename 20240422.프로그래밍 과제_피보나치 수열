@@ -1,0 +1,15 @@
+try:
+    num = int(input("Please enter a natural number: "))
+    def fibonacci(num):
+        f_num1 = 0
+        f_num2 = 1
+        if num == 1:
+            return f_num1
+        elif num == 2:
+            return f_num2
+        else:
+            return fibonacci(num-1) + fibonacci(num-2)
+except ValueError:
+    print("It is not a valid value.")
+
+print("The Fibonacci number is", fibonacci(num), ".")
